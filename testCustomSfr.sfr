@@ -1,0 +1,41 @@
+[Sfr]
+sfr = "P1IN",	"Memory",	0x20,	1,	base=16,	modified
+sfr = "P1REN",	"Memory",	0x27,	1,	base=16,	modified
+sfr = "P2IFG",	"Memory",	0x2b,	1,	base=16,	modified
+sfr = "P2IES",	"Memory",	0x2c,	1,	base=16,	modified
+sfr = "P3OUT",	"Memory",	0x19,	1,	base=16,	modified
+sfr = "P3DIR",	"Memory",	0x1a,	1,	base=16,	modified
+sfr = "P3REN",	"Memory",	0x10,	1,	base=16,	modified
+sfr = "TA0CCTL1",	"Memory",	0x164,	2,	base=16,	modified
+sfr = "TA0CCTL2",	"Memory",	0x166,	2,	base=16,	modified
+sfr = "TA0CCR0",	"Memory",	0x172,	2,	base=16,	modified
+sfr = "TA1CTL",	"Memory",	0x180,	2,	base=16,	modified
+sfr = "TA1CCTL1",	"Memory",	0x184,	2,	base=16,	modified
+sfr = "UCA0BR0",	"Memory",	0x62,	1,	base=16,	modified
+sfr = "UCA0BR1",	"Memory",	0x63,	1,	base=16,	modified
+sfr = "UCA0RXBUF",	"Memory",	0x66,	1,	base=16,	modified
+sfr = "UCA0TXBUF__SPI",	"Memory",	0x67,	1,	base=16,	modified
+sfr = "UCB0CTL1__SPI",	"Memory",	0x69,	1,	base=16,	modified
+sfr = "UCB0BR0__SPI",	"Memory",	0x6a,	1,	base=16,	modified
+sfr = "UCB0BR1__SPI",	"Memory",	0x6b,	1,	base=16,	modified
+sfr = "UCB0STAT__SPI",	"Memory",	0x6d,	1,	base=16,	modified
+sfr = "UCB0RXBUF__SPI",	"Memory",	0x6e,	1,	base=16,	modified
+sfr = "UCB0TXBUF__SPI",	"Memory",	0x6f,	1,	base=16,	modified
+sfr = "UCB0CTL0",	"Memory",	0x68,	1,	base=16,	modified
+sfr = "UCB0CTL1",	"Memory",	0x69,	1,	base=16,	modified
+sfr = "UCB0I2CIE",	"Memory",	0x6c,	1,	base=16,	modified
+sfr = "UCB0STAT",	"Memory",	0x6d,	1,	base=16,	modified
+sfr = "UCB0TXBUF",	"Memory",	0x6f,	1,	base=16,	modified
+sfr = "UCB0I2COA",	"Memory",	0x118,	2,	base=16,	modified
+sfr = "UCB0I2CSA",	"Memory",	0x11a,	2,	base=16,	modified
+
+
+[SfrGroupInfo]
+group = "Custom", "P1IN", "P1REN"
+group = "Custom", "P2IFG", "P2IES", "P3OUT", "P3DIR", "P3REN", "TA0CCTL1", "TA0CCTL2"
+group = "Custom", "TA0CCR0", "TA1CTL"
+group = "Custom", "TA1CCTL1", "UCA0BR0", "UCA0BR1"
+group = "Custom", "UCA0RXBUF"
+group = "Custom", "UCA0TXBUF__SPI", "UCB0CTL1__SPI", "UCB0BR0__SPI", "UCB0BR1__SPI", "UCB0STAT__SPI"
+group = "Custom", "UCB0RXBUF__SPI", "UCB0TXBUF__SPI", "UCB0CTL0", "UCB0CTL1"
+group = "Custom", "UCB0I2CIE", "UCB0STAT", "UCB0TXBUF", "UCB0I2COA", "UCB0I2CSA"
